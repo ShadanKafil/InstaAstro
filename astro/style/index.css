@@ -1,0 +1,232 @@
+
+
+*{
+  font-family: "DM Sans", sans-serif;  
+  box-sizing: border-box;
+}
+
+h2{
+  font-family: "Rajdhani", sans-serif;
+}
+.rajdhaniFont{
+  font-family: "Rajdhani", sans-serif;
+}
+
+/* // start of upperNavbar */
+.topNavbar{
+  padding: 1rem 0;
+}
+.navbar-brand img{
+  width: 160px;
+}
+.navButton{
+  float:right;
+}
+
+.navButton a {
+  border: 1px solid #606366;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #606366;
+  font-size: 15px;
+  vertical-align: middle;
+  margin: 0 4px;
+  transition: all linear 0.2s;
+}
+.navButton a:hover{
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+  color: #ffffff;
+ 
+}
+
+.navButton a:hover img{
+  filter: brightness(0%) invert(100%);
+}
+
+
+
+ .loginButton {
+  border:none !important;
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+  color: #ffffff !important;
+}
+
+/* // End of UpperNavbar */
+
+/* // start of Lower Navbar */
+nav#mainNav {
+  background: #ffcc33;
+  height: 48px;
+}
+
+.nav-link{
+  color: #212529 !important;
+  margin-right: 25px;
+}
+
+/* // End of Upper Navbar */
+
+/* // start of breadcrumb */
+.breadcrumb-item{
+  font-size: 14px;
+}
+.breadcrumb-item a{
+  color: #FD7E14 !important;  
+  text-decoration: none !important;
+}
+
+
+/* // End of breadcrumb */
+
+/* start of section 1 */
+.sectionOne{
+  padding: 0.5rem 0 4rem 0; 
+}
+.loveCalImg{
+  border: 1px solid #C3C3C3;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.loveCalHeading{
+  font-weight: bolder;
+}
+
+/* end of section 1 */
+
+/* start of section 2 */
+.sectionTwo{
+  background-color: #f8f8f8;
+  padding: 4rem 0;
+  font-family: "DM Sans", sans-serif !important;
+  margin-bottom: 3rem;
+}
+.sectionTwo label{
+  font-size: 16px;
+  color: #606366;
+}
+input,select{
+  height: 45px;
+  
+}
+.scaleInput{
+  width:150px;
+}
+.submitButton{
+  padding: 0.5rem 3rem;
+  color: white;
+  background-color: #FD7E14;
+  border-color: #FD7E14;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+/* end of section 2 */
+
+/* start of section 4 */
+.section4{
+  background-color: #f8f8f8;
+  padding: 4rem 0;
+}
+.accordion-item{
+      border-color: #C3C3C3;
+ margin-bottom: 2rem;
+}
+.accordion-item h6 button{
+  font-weight: 600;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+  box-shadow: none;
+}
+/* End of section 4 */
+
+/* Start of section 5 */
+.sectionFive{
+  padding: 4rem 0;
+}
+.horoscopes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.hotoscope-box{
+  text-align: center;
+  padding: 18px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  flex: 1 1 15%;
+  transition: 0.3s all;
+}
+
+.horoscopes .hotoscope-box img {
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.hotoscope-box a{
+  text-decoration: none;
+  color: #212529;
+}
+.horoscope-name{
+  font-weight: 700;
+}
+
+/* End of section 5 */
+
+/* start of section 6 */
+.sectionSix{
+  background-color: #2c2d2e;
+}
+.sectionSix ul li{
+  list-style: none;
+  padding-bottom:0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(244, 244, 244, 0.2);;
+}
+.sectionSix ul li a{
+  text-decoration: none;
+  color:#ffffff; 
+}
+.sectionSix ul li a:hover{
+  color: #FD7E14;
+}
+
+/* End of section 6 */
+
+/* start of section 7 */
+.sectionSeven{
+  background-color: #212529;
+  color: #ffffff;
+}
+.sectionSeven ul{
+  padding-left:0rem;
+}
+.sectionSeven ul li{
+list-style: none;
+}
+.sectionSeven ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.sectionSeven ul li a:hover{
+  color: #FD7E14;
+}
+
+/* End of section 7 */

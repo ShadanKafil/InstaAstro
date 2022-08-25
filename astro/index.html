@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+<!-- start of topNavBar -->
+    <div class="topNavbar">
+        <div class="container top-navigation">
+            <div class="row">
+                <div class="col-md-4 logo-section">
+                    <div class="mobile-navigation">
+                        <a class="navbar-brand js-scroll-trigger" href="#">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/instaastro-logo.svg"
+                                alt="InstaAstro Logo">
+                        </a>
+                    </div>
+                    <!-- <a href="https://instaastro.app.link/VvaBFpdsGob" class="btn-getApp">Get App</a> -->
+                </div>
+                <div class="col-md-8 mob-border-light">
+                    <div class="navButton">
+                        <a href="#"><img
+                                src="https://instaastro-static-files.s3.amazonaws.com/static/img/icon-chat.svg"> Chat
+                            with Astrologer</a>
+                        <a href="#"><img
+                                src="https://instaastro-static-files.s3.amazonaws.com/static/img/icon-phone.svg">Talk to
+                            Astrologer</a>
+
+                        <a href="#" class="loginButton" data-toggle="modal" data-target="#loginModal">Login</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of topNavBar -->
+
+    <!-- Start of lower Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/hamburger.svg" alt="Hamburger">
+            </button>
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kundli</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Matchmaking</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Horoscope</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Live</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Panchang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Calendar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>                   
+
+                </ul>
+                <div class="dark-background-menu collapsed" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Lower Navbar -->
+
+    <!-- Start of BreadCrumb -->
+    <section>
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item breadOption"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item breadOption"><a href="#">Relationship</a></li>
+                          <li class="breadcrumb-item breadOption active " aria-current="page">Love Calculator</li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- end of breadcrumb -->
+
+    <!-- start of section1 -->
+    <section class="sectionOne">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-2">
+                    <div class="loveCalImg">
+                        <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/icons/love-calculator-image.svg" alt="Love Calculator Image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-10 my-auto">
+                    <h2 class="loveCalHeading">Love Calculator</h2>
+                    <p>Want to know the chances of your love being successful or not? InstaAstro presents Love Calculator Online to calculate the love between you and your partner. Enter your details and find out the love compatibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of section1 -->
+
+    <!-- start of section 2 -->
+    <section class="sectionTwo">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="fw-bolder" >Free Love Calculator</h2>
+                    <p class="fw-bolder">Enter your details and Find out your Love compatibility with your partner.</p>                
+                </div>
+               
+                  
+                      
+                 
+              
+            </div>
+            <form class="row g-3">
+                <div class="col-md-3">
+                  <label for="inputEmail4" class="form-label">Your Name*</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Name">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputState" class="form-label">Your Gender</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Select Your Gender</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                <div class="col-md-2">
+                    <label for="inputState" class="form-label">Your DOB</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Date</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <label for="inputState" class="form-label">&nbsp</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Months</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <label for="inputState" class="form-label">&nbsp</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Year</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group col-md-3">
+                    <label for="inputEmail4" class="form-label">Your Name*</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Name">
+                  </div>
+                  <div class="form-group col-md-3">
+                      <label for="inputState" class="form-label">Your Gender</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Select Your Gender</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                  <div class="form-group col-md-2">
+                      <label for="inputState" class="form-label">Your DOB</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Date</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+  
+                    <div class="form-group col-md-2">
+                      <label for="inputState" class="form-label">&nbsp</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Months</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+  
+                    <div class="form-group col-md-2">
+                      <label for="inputState" class="form-label">&nbsp</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Year</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group row pt-4">
+                        <label for="inputEmail3" class="col-sm-6 col-form-label">How much do you love him or her on a scale from 1 to 100:*</label>
+                        <div class="col-sm-6">
+                          <input type="number" class="form-control scaleInput" id="" placeholder="Type Here" >
+                        </div>
+                      </div>
+
+                      <div class="form-group row pt-4">
+                        <label for="inputEmail3" class="col-sm-6 col-form-label">How much do you think he or she loves you on a scale from 1 to
+                            100:*</label>
+                        <div class="col-sm-6">
+                          <input type="number" class="form-control scaleInput" id="" placeholder="Type Here" >
+                        </div>
+                      </div>
+
+                      <div class="form-group row pt-5">
+                        <div class="col d-flex justify-content-center">
+                          <button type="submit" class="btn btn-warning submitButton">Get Calculate</button>
+                        </div>
+                      </div>
+             
+              </form>
+        </div>
+    </section>
+    <!-- start of section 2 -->
+<!-- start of section 3 -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Do you love someone and wish to know if they are the special ones? Do you want to check your love compatibility strength with your partner? Then, take the love compatibility test and find how much you score on the love calculator. This tool will answer all your questions like "does she love me?" and "are we perfect for each other?"</p>
+                    <p>This Love Calculator Online tool is a direct method of finding out whether you and your partner will be compatible or not. Simply enter your and your partner's name and birth details, and get your understanding of how much you love each other.</p>
+                    <p>InstaAstro brings you an authentic way to calculate Love percentage and decode your love connection. Our ultimate love test calculator online conducts a love compatibility test based on your and your partner's name and birth details. Then, it displays a love percentage that tells how well you match with your partner or what are the odds of success of your relationship. So, be ready to make the most of the accurate love calculator and find your genuine soulmate connection with this love tracker?
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h5 class="fw-bold">How Accurate is the Love Compatibility Calculator?</h5>
+                    <p>The Love Compatibility calculator or Love Test Calculator online offers results proven to be 100% accurate. In addition, the complex algorithms on which the Online Love Calculator works offer complete authenticity to love meter test results.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h5 class="fw-bold">How Does Love Percentage Calculator Work?</h5>
+                    <p>Is it a true love test? True Love Calculator follows specific algorithms to calculate love percentage. This Love compatibility test or relation finder tool follows an ancient system of numerology that utilizes your date of birth and name for creating love calculations. It also includes planetary influences analysed solely based on your date of birth. Since the name and date of birth are the main aspects of finding a love percentage, the love calculator online is referred to as a true love name match or accurate love calculator by date of birth.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h5 class="fw-bold">How Can A True Love Calculator Help?</h5>
+                    <p>Finding your Love Compatibility or Love Percentage works wonders in your life. Calculating your true love percentage by real love percentage calculator by date of birth and name gives you clarity and detailed insights into your relationship. A love parameter by a true love calculator motivates you to build a better bond with your match. It drives you to improve weaker aspects and maintain your bond. The Love Calculator by name and date of birth, thus, is a fantastic tool to calculate your love compatibility with your companion. Even if you are in love with someone and desire to check if they are your soulmate or not, this online love marriage calculator by date of birth is the perfect way to find your best love match.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- start of section 3 -->
+
+<!-- start of section 4 -->
+<section class="section4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               <h3 class="fw-bold pb-4">Frequently Asked Questions</h3> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h6 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Are Love Calculator accurate?
+                        </button>
+                      </h6>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p>Regardless of what any astrologer or 'expert' says, how a person views or defines love is up to them. The results of any calculator should have little bearing on whether or not a person chooses to pursue it.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h6 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          How can an accurate love calculator help?
+                        </button>
+                      </h6>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p>Love calculation by a love calculator on the basis of a specific algorithm. Once you input the two names, this calculator matches the first person's name against some love, and romance parameters. Similarly, the name of your partner is checked against the same parameters.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h6 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Should i approach my partner after getting a good result?
+                        </button>
+                      </h6>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <p>Guys in love mimic their partners' words and actions. Pay attention to how he acts around you. He'll try to mirror your actions and body language to make you feel comfortable in his presence.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h6 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Should i approach my partner after getting a good result?
+                          </button>
+                        </h6>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                           <p>Guys in love mimic their partners' words and actions. Pay attention to how he acts around you. He'll try to mirror your actions and body language to make you feel comfortable in his presence.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end of section 4 -->
+
+<!-- start of section 5 -->
+
+<section class="sectionFive">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="fw-bolder" >DAILY HOROSCOPES</h2>
+                <p class="fw-bolder">Your daily zodiac sign reading for free</p>                
+            </div>
+           
+              
+                  
+             
+          
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="horoscopes">
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/aries_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/aries.svg" alt="Aries">
+                            <p class="horoscope-name">Aries</p>
+                            <p class="horoscope-month">Mar 21 -Apr 19</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/taurus_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/taurus.svg" alt="Taurus">
+                            <p class="horoscope-name">Taurus</p>
+                            <p class="horoscope-month">Apr 20 - May 20</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/gemini_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/gemini.svg" alt="Gemini">
+                            <p class="horoscope-name">Gemini</p>
+                            <p class="horoscope-month">May 21 - Jun 21</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/cancer_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/cancer.svg" alt="Cancer">
+                            <p class="horoscope-name">Cancer</p>
+                            <p class="horoscope-month">Jun 22 - Jul 22</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/leo_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/leo.svg" alt="Leo">
+                            <p class="horoscope-name">Leo</p>
+                            <p class="horoscope-month">Jul 23 - Aug 22</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/virgo_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/virgo.svg" alt="virgo">
+                            <p class="horoscope-name">Virgo</p>
+                            <p class="horoscope-month">Aug 23 - Sept 22</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/libra_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/libra.svg" alt="Libra">
+                            <p class="horoscope-name">Libra</p>
+                            <p class="horoscope-month">Sept 23 - Oct 23</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/scorpio_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/scorpius.svg" alt="Scorpius">
+                            <p class="horoscope-name">Scorpio</p>
+                            <p class="horoscope-month">Oct 24 - Nov 22</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/sagittarius_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/sagittarius.svg" alt="Sagittarius">
+                            <p class="horoscope-name">Sagittarius</p>
+                            <p class="horoscope-month">Nov 23 - Dec 21</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/capricorn_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/capricornus.svg" alt="Capricornus">
+                            <p class="horoscope-name">Capricorn</p>
+                            <p class="horoscope-month">Dec 22 - Jan 19</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/aquarius_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/aquarius.svg" alt="Aquarius">
+                            <p class="horoscope-name">Aquarius</p>
+                            <p class="horoscope-month">Jan 20 - Feb 18</p>
+                        </a>
+                    </div>
+                    <div class="hotoscope-box">
+                        <a href="/horoscope/pisces_daily_horoscope/">
+                            <img src="https://instaastro-static-files.s3.amazonaws.com/static/img/horoscopes/pisces.svg" alt="Pisces">
+                            <p class="horoscope-name">Pisces</p>
+                            <p class="horoscope-month">Feb 19 - Mar 20</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of section 5 -->
+
+<!-- Start of section 6 -->
+<section class="sectionSix">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        
+                        <a href="#">Home</a>                        
+                    </li>
+                    <li>
+                        <a href="#">Talk with Astrologer</a>    
+                    </li>
+                    <li>
+                        <a href="#">Live Astrologers</a>    
+                    </li>
+                    <li>
+                        <a href="#">Daily Horoscope</a>    
+                    </li>
+                </ul>                
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        
+                        <a href="#">Kundli</a>                        
+                    </li>
+                    <li>
+                        <a href="#">Match Making</a>    
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>    
+                    </li>
+                    <li>
+                        <a href="#">Calendar</a>    
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li>
+                        
+                        <a href="#">Arti Sangrah
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="#">WallPapers</a>    
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of section 6 -->
+
+<!-- start of section 7 -->
+<section class="sectionSeven py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="rajdhaniFont fw-bold mb-4">Useful Links</h3> 
+                <ul>
+                    <li>
+                        <a href="">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="">Careers</a>
+                    </li>
+                    <li>
+                        <a href="">Astrologer Registration</a>
+                    </li>
+                    <li>
+                        <a href="">Help</a>
+                    </li>
+                </ul>               
+            </div>
+            <div class="col-md-4">
+                <h3 class="rajdhaniFont fw-bold mb-4">Download Our App</h3>
+                <a href="https://play.google.com/store/apps/details?id=com.instaastro.onlineastrology"><img class="mb-2" src="https://instaastro-static-files.s3.amazonaws.com/static/img/google-play.png" alt="Android App" width="140"></a><br>
+                <a href="https://apps.apple.com/us/app/instaastro-talk-to-astrologer/id1547565515"><img src="https://instaastro-static-files.s3.amazonaws.com/static/img/app-store.png" alt="iPhone App" width="140"></a>
+            </div>
+            <div class="col-md-4">
+                <h3 class="rajdhaniFont fw-bold mb-4">Contact Us </h3> 
+                <ul>
+                    <li>
+                        <a href="">Phone: +91- 6366-937-227</a>
+                    </li>
+                    <li>
+                        <a href="">Email: support@instaastro.in</a>
+                    </li>
+                  
+                </ul>
+              
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End of section 7 -->
+
+
+   
+
+
+
+
+
+
+   
+
+    <!--Main layout-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+
+
+
+
+
+
+</body>
+
+</html>
